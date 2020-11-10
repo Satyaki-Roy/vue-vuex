@@ -19,7 +19,7 @@ export default {
   },
   methods: {
     incrementCounter() {
-      this.$store.commit({
+      this.$store.dispatch({
         type: 'increase',
         value: 10
       });

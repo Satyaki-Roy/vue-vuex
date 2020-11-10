@@ -1,5 +1,5 @@
 <template>
-  <button @click="incrementCounter">Add 1</button>
+  <button @click="incrementCounter">Add 2</button>
 </template>
 
 <script>
